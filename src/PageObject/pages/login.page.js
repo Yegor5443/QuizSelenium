@@ -1,5 +1,5 @@
 const BasePage = require("./base.page");
-const { By } = require('selenium-webdriver');
+const { By} = require('selenium-webdriver');
 
 class LoginPage extends BasePage {
     async logIn(login, pass) {
