@@ -9,7 +9,6 @@ class BasePage {
     constructor() {
         global.driver = driver
     }
-
     async goToURL(url) {
         await driver.get(url);
     }
